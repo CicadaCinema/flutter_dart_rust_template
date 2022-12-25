@@ -6,7 +6,7 @@
 - Pure-Dart package name: `bbb_project_bbb`
 - Flutter plugin name: `ccc_project_ccc`
 - Name of momorepo/project: `abc_project_cba`
-- GitHub URL for distribution: https://github.com/_github_name_/_repo_name_`
+- GitHub URL for distribution: `https://github.com/_github_name_/_repo_name_`
 
 ### Dart functions (for testing)
 - Wrapper defined in pure-Dart project: `bbbAdd`
