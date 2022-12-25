@@ -1,4 +1,5 @@
 import 'package:bbb_project_bbb/bbb_project_bbb.dart';
+import 'package:flutter_rust_bridge/flutter_rust_bridge.dart';
 
 WasmModule createLibraryImpl() {
   // TODO: add web support. See:

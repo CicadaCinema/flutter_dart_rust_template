@@ -5,8 +5,12 @@ import 'dart:io';
 import 'dart:isolate';
 
 import 'ccc_project_ccc_bindings_generated.dart';
+import 'src/ffi.dart';
 
-export 'package:bbb_project_bbb/bbb_project_bbb.dart';
+Future<int> cccAdd(int a, int b) async {
+  final result = await createLib().simpleAdder(a: a, b: b);
+  return result;
+}
 
 /// A very short-lived native function.
 ///

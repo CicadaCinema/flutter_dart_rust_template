@@ -13,4 +13,8 @@ void main() {
       expect(awesome.isAwesome, isTrue);
     });
   });
+
+  test('Tesing bbbAdd from package:bbb_project_bbb', () async {
+    expect(await bbbAdd(12, 34), equals(46));
+  });
 }
