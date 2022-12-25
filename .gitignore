@@ -1,0 +1,14 @@
+# JetBrains
+*.iml
+.idea/
+
+# Melos
+pubspec_overrides.yaml
+
+# Rust
+/target/
+/platform-build/
+/Cargo.lock
+
+# Dart
+.dart_tool/

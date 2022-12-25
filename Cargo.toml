@@ -1,0 +1,2 @@
+[workspace]
+members = ["packages/bbb_project_bbb/native"]
